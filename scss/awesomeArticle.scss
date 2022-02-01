@@ -1,0 +1,37 @@
+#awesome{
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: gray;
+}
+#awesome h1{
+    font-size: 40px;
+    height: 10vh;
+    color: black;
+}
+#awesome h1:after {
+    content: '';
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    width: 20%;
+    margin-top: 20px;
+    border: 1px solid #E27866;
+}
+#awesomecontent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 60%;
+    height: 500px;
+    
+}
+#awesome span{
+    font-size: 25px;
+    line-height: 100px;
+    color: black;
+}

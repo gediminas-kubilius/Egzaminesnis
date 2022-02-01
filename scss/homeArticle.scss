@@ -1,0 +1,46 @@
+#home {
+  width: 100%;
+  display: flex;
+  background: #0000009f;
+  background-image: url(../assets/home-cover.png);
+  background-blend-mode: darken;
+  height: 840px;
+  .home-text {
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+  }
+  @import "form";
+}
+.logotext{
+  height: 65%;
+  width: 50%;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  text-align: left;
+  h2{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight:normal;
+    color: #e7d8d8;
+  }
+}
+h1:after {
+  content: '';
+  display: block;
+  position: relative;
+  width: 8%;
+  border: 1px solid white;
+  margin-top: 30px; }
+.download{
+  height: 50px;
+  line-height: 50px;
+  width: 180px;
+  font-size: 20px;
+  font-weight:bolder;
+  text-align: center;
+  color: white;
+  margin-top: 75px;
+  border: 2px solid white;
+}

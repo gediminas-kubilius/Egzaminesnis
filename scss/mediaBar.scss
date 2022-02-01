@@ -1,0 +1,29 @@
+#mediaBar {
+  width: 80%;
+  height: 95px;
+  margin-left: 260px;
+  margin-top: 30px;
+  background: white;
+  display: inline-block;
+  justify-content: space-between;
+  text-align: left;
+  
+  span {
+    
+    font-size: 28px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #333333;
+  }
+}
+.svgs{
+  width: 50%;
+  height: 105px;
+  letter-spacing: 100px;
+  margin: -55px 790px;
+}
+h4{
+  color: rgb(95, 100, 100);
+  margin-top: 5px;
+  font-weight: normal;
+}
